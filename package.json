@@ -1,0 +1,15 @@
+{
+  "name": "neeo-hass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/driverStart.js",
+  "scripts": {
+    "start": "node src/driverStart.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "homeassistant": "^0.2.0",
+    "neeo-sdk": "^0.53.8"
+  }
+}
