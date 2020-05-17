@@ -9,7 +9,7 @@ const BRAIN_IP = process.env.NEEO_IP;
 neeoapi
   .startServer({
     brain: BRAIN_IP,
-    port: 6336,
+    port: process.env.NEEO_PORT || 6336,
     name: 'debug-server',
     devices: [
       ...driver.devices,
